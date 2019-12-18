@@ -5,12 +5,28 @@
    Responsive images and box padding
    ========================================================================== */
 
-img,
-object {
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.item {
+  max-width: 30%;
+  max-height: auto;
+  text-align: center;
   display: block;
-  border: 0;
-  max-width: 100%;
-  height: auto;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  float: left;
+}
+#index-gallery {
+  width: 100%;
+}
+div.info {
+  padding: 0px;
+  text-align: Left;
 }
 
 * {
@@ -36,4 +52,16 @@ h1 {
   font-size: 3em;
   font-weight: 600;
 }
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 33.33%;
+  width: 250px;
+  height: 150px;
+  margin: 1px;
+  text-align: center;
+  font-family: arial;
+  font-size: 15px;
+  float: left;
+}
+
 
