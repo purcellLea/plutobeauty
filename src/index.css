@@ -64,11 +64,24 @@ h1 {
 }
 
 button{
-  text-align:center;
-  font-family: arial;
-  color: white;
-  background: purple;
+  background: #6018cc;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 15px;
+  line-height: 4px;
+  text-align: center;
+  transition-property: background, border-radius;
+  transition-duration: .2s, 1s;
+  transition-timing-function: linear;
+  width: 95px;
 
+}
+button:hover {
+  background: #ed3ee4;
+  border-radius: 40%;
+}
+h1{
+text-align: center;
 }
 
 
